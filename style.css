@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.container{
+    width: 100%;
+    /* height: 100vh; */
+    padding: 20px;
+}
+
+.container h1{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.area{
+    width: 100%;
+    height: 120px;
+    background-color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+
+
+}
+
+#prompt{
+width: 60%;
+height: 50%;
+padding: 20px;
+border: none;
+border-radius: 20px 0 0 20px;
+
+
+}
+
+button{
+    background-color:blue;
+    border: none;
+    border-radius:  0 20px 20px 0;
+
+}
+#btn{
+    font-size:20px;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.img{
+    width: 150px;
+
+}
+
+.img img{
+    width: 100px;
+}
+
+.chat-container{
+    width: 100%;
+    max-height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.user-chat{
+width: 70%;
+padding: 10px;
+display: flex;
+justify-content: flex-start;
+background-color:beige;
+border-radius: 40px 40px 0px 40px;
+
+}
+
+.chat-box{
+    width: 70%;
+padding: 10px;
+display: flex;
+
+justify-content: flex-start;
+background-color:beige;
+border-radius: 40px 40px 40px 0px;
+}
+
+
+
+
+
+
+
+
